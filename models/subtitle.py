@@ -4,7 +4,7 @@ import requests
 from urllib.parse import unquote
 import re
 async def subfetch(code, language) -> Optional[str]:
-    sub_base_url = "https://api-vidsrc-rouge.vercel.app/subs?url="
+    sub_base_url = "https://vidsrc.braflix.app/subs?url="
     print(code)
     if "_" in code:
         code, season_episode = code.split("_")
