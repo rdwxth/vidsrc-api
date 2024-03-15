@@ -1,17 +1,25 @@
 # vidsrc-api
-`[ PROJECT HAS UNDERGONE VERY LARGE CHANGES IN STRUCTURE AND CONTENT ]`
+
+[![Status](https://img.shields.io/badge/status-running-red)](https://api-movie-source.vercel.app/)
+[![Deployment](https://img.shields.io/badge/deployment-success-blue)](https://api-movie-source.vercel.app/)
+
+`STATUS`- `WORKING` - `(UPDATED MAR/15/24)`
+- Everything Works - Vidsrc.to fixed on last commit.
+- The filemoon has restrictions on vercel,so if you need filemoon,proxy it or run on a different platform.(It seems its not working...)
 
 A simple web scrapper based on this [resolver](https://github.com/Ciarands).
 
-- Please let me know if you are using this code (just for showcasing) :)
+## About
 
-- `If you liked it :)`
+- If you liked it :)
 
 <a href="https://www.buymeacoffee.com/cooldevguy"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a cool-milk&emoji=🥛&slug=cooldevguy&button_colour=222222&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" /></a>
 
+- If any issues,drop an issue on github.
+
 ### FEATURES
 ```
-- async support
+- async support - There will be an update soon for completely changing the code to async to increase speed.
 - parallel execution
 - very fast results
 - subtitle support for enery sources.
@@ -25,7 +33,7 @@ A simple web scrapper based on this [resolver](https://github.com/Ciarands).
 ```
 ### USAGE (`GET`)
 - base url:
-  https://api-movie-source.vercel.app
+  https://api-source-movie.vercel.app
 
 - endpoints:
   - `/vidsrc/{db_id}`
